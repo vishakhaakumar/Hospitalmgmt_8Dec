@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body style="background-color:#D9F4F9;">
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
@@ -40,7 +40,7 @@ ResultSet resultSet = null;
 <td><b>contact_no</b></td>
 <td><b>street</b></td>
 <td><b>locality</b></td>
-<td><b>aadhar</b></td>
+<td><b>SSN</b></td>
 <td><b>state</b></td>
 <td><b>country</b></td>
 </tr>
