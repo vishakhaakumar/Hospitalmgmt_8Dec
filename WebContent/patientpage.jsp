@@ -22,7 +22,7 @@
 
 
 	</head>
-	<body style="background-image:url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-9-full.jpg)">
+	<body style="background-color:#D9F4F9;">
 <%    
 String name=(String)session.getAttribute("user");  
 %> 
@@ -36,7 +36,7 @@ String name=(String)session.getAttribute("user");
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Patient | Dashboard</h1>
+									<h1 class="mainTitle">Patient Dashboard</h1>
 																	</div>
 							</div>
 						</section>
@@ -47,7 +47,7 @@ String name=(String)session.getAttribute("user");
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
+											<!--<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>-->
 											<h2 class="StepTitle">My Profile</h2><br>
 										
 											<p class="cl-effect-1">
@@ -61,7 +61,7 @@ String name=(String)session.getAttribute("user");
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
+											<!--<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>-->
 											<h2 class="StepTitle">My Appointments</h2>
 										
 											<p class="cl-effect-1">
@@ -75,7 +75,7 @@ String name=(String)session.getAttribute("user");
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+											<!--<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>-->
 											<h2 class="StepTitle"> Book My Appointment</h2>
 											
 											<p class="links cl-effect-1">
