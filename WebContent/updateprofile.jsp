@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js">
     <link rel="stylesheet" href="newser.css">
 </head>
-<body >
+<body style="background-color:#D9F4F9;">
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
@@ -39,7 +39,7 @@ ResultSet resultSet = null;
 <div class="new">
         <form class="ui form" method="post" action="successupdate.jsp?Name=<%=Name%>">
         <br><br>
-        <h1>User | Update profile</h1><br>
+        <h1>Update profile</h1><br>
                 <h3 class="ui dividing header">Fill in  Information</h3>
                 <div class="field">
                   <div class="two fields">
@@ -68,12 +68,12 @@ while(resultSet.next()){
                 <div class="two fields">
                   <div class="field">
                     <label>Contact number</label>
-                    <input type="number" name="pno" placeholder="phone number" value="<%=resultSet.getString("contact_no") %>">
+                    <input type="number" name="pno" placeholder="Enter Phone Number" value="<%=resultSet.getString("contact_no") %>">
                     
                   </div>
                   <div class="field">
                     <label for="">Email id</label>
-                    <input type="text" name="pemail" placeholder="email id" value="<%=resultSet.getString("email") %>">
+                    <input type="text" name="pemail" placeholder="Enter Email Id" value="<%=resultSet.getString("email") %>">
                   </div>
                 </div>
                 <div class= "three fields">
@@ -87,7 +87,7 @@ while(resultSet.next()){
                     </div>
                     <div class="field">
                       <label for="">Adhaar number</label>
-                      <input type="number" name="aadhar" placeholder="adhaar number" value="<%=resultSet.getString("aadhar") %>">
+                      <input type="number" name="aadhar" placeholder="SSN number" value="<%=resultSet.getString("aadhar") %>">
                     </div>
                  
                 </div>
@@ -96,57 +96,56 @@ while(resultSet.next()){
                     <label>State</label>
                     <select class="ui fluid dropdown" name="state">
                       <option value="<%=resultSet.getString("state") %>" >State</option>
-                  <option value="AP">Andhra</option>
-                  <option value="Arunachal">Arunachal pradesh</option>
-                  <option value="Assam">Assam</option>
-                  <option value="KA">Karnataka</option>
-                  <option value="CA">California</option>
-                  <option value="CO">Colorado</option>
-                  <option value="CT">Connecticut</option>
-                  <option value="DE">Delaware</option>
-                  <option value="DC">District Of Columbia</option>
-                  <option value="FL">Florida</option>
-                  <option value="GA">Georgia</option>
-                  <option value="HI">Hawaii</option>
-                  <option value="ID">Idaho</option>
-                  <option value="IL">Illinois</option>
-                  <option value="IN">Indiana</option>
-                  <option value="IA">Iowa</option>
-                  <option value="KS">Kansas</option>
-                  <option value="KY">Kentucky</option>
-                  <option value="LA">Louisiana</option>
-                  <option value="ME">Maine</option>
-                  <option value="MD">Maryland</option>
-                  <option value="MA">Massachusetts</option>
-                  <option value="MI">Michigan</option>
-                  <option value="MN">Minnesota</option>
-                  <option value="MS">Mississippi</option>
-                  <option value="MO">Missouri</option>
-                  <option value="MT">Montana</option>
-                  <option value="NE">Nebraska</option>
-                  <option value="NV">Nevada</option>
-                  <option value="NH">New Hampshire</option>
-                  <option value="NJ">New Jersey</option>
-                  <option value="NM">New Mexico</option>
-                  <option value="NY">New York</option>
-                  <option value="NC">North Carolina</option>
-                  <option value="ND">North Dakota</option>
-                  <option value="OH">Ohio</option>
-                  <option value="OK">Oklahoma</option>
-                  <option value="OR">Oregon</option>
-                  <option value="PA">Pennsylvania</option>
-                  <option value="RI">Rhode Island</option>
-                  <option value="SC">South Carolina</option>
-                  <option value="SD">South Dakota</option>
-                  <option value="TN">Tennessee</option>
-                  <option value="TX">Texas</option>
-                  <option value="UT">Utah</option>
-                  <option value="VT">Vermont</option>
-                  <option value="VA">Virginia</option>
-                  <option value="WA">Washington</option>
-                  <option value="WV">West Virginia</option>
-                  <option value="WI">Wisconsin</option>
-                  <option value="WY">Wyoming</option>
+                  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="DC">District Of Columbia</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
                     </select>
                   </div>
                   <div class="field">
@@ -155,10 +154,8 @@ while(resultSet.next()){
                     
                     <select class="ui fluid dropdown" name="country">
                       <option value="<%=resultSet.getString("country") %>">Country</option>
-                  <option value="India">India</option>
-                  <option value="Bangladesh">Bangaldesh</option>
-                  <option value="Pakistan">Pakistan</option>
-                  <option value="Srilanka">Srilanka</option>
+                  <option value="India">USA</option>
+                  
                     </select>
                   </div>
                      </div>
