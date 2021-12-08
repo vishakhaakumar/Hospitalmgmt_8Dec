@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Patient  | Book Appointment</title>
+		<title>Book Appointment</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,7 +25,7 @@
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
 		
 	</head>
-	<body style="background-image:url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-9-full.jpg)">
+	<body style="background-color:#D9F4F9;">
 		<div id="app">		
 				<!-- end: TOP NAVBAR -->
 				<div class="main-content" >
@@ -34,7 +34,7 @@
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Patient | Book Appointment</h1>
+									<h1 class="mainTitle">Patient Book Appointment</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
