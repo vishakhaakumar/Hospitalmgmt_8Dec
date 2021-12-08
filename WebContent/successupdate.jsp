@@ -36,8 +36,9 @@ System.out.println("asasdf");
 
 %>
 <br>
-<b><center>Success</center></b><br>
-<center><a href="plogin.jsp">Back to login page</a></center><br>
-<center><a href="/HospDBMS">Home</a></center><br>
+<h3 style="font-size: 26px;color: rgb(93, 173, 93);"><b><center>Registration Successfull</center></b><br></h3>
+<center><a style="font-size: 22px;color:white;background: rgb(93, 173, 93);cursor: pointer;text-decoration: none;display: block;width:180px;height:37px;text-align:center;" href="plogin.jsp" title="Please click on link to redirect to login page">Login Page</a></center><br>
+<center><a style="font-size: 22px;color:white;background: rgb(93, 173, 93);cursor: pointer;text-decoration: none;display: block;width:180px;height:37px;text-align:center;" href="/HospDBMS" title="Please click on link to redirect to home page">Home</a></center>
+
 </body>
 </html>
