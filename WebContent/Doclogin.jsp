@@ -18,14 +18,14 @@
 		<link rel="stylesheet" href="assets/css/plugins.css">
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
 </head>
-<body style="background-image:url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-9-full.jpg)">
+<body style="background-color:#D9F4F9;">
 <%    
 String name=(String)session.getAttribute("user");  
 out.print("Hello DOc"+name);  
 %>
   <!--patient login page--><br><br><br>
  		<center><div class="logo margin-top-30">
-				<h2> Hospital DBMS | Doctor Login</h2><br>
+				<h2>Doctor Login</h2><br>
 		</div></center>
 
     <div class="ui container login">
@@ -36,13 +36,13 @@ out.print("Hello DOc"+name);
                          <div  class="sixteen wide field">  
               <br>
                            <label class="header">User Name</label>
-                           <input type="text" name="uname" placeholder="xxxxxx">
+                           <input type="text" name="uname" placeholder="Enter Username">
                          </div>
                         </div>
                          <div class="field">
                         <div  class="sixteen wide field">   
                            <label class="ui header">Password</label>
-                           <input type="password" name="pwd" placeholder="xxxxxx">
+                           <input type="password" name="pwd" placeholder="Enter Password">
                          </div>
                          </div>
                          <div class="field">
