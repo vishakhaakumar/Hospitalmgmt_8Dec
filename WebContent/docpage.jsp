@@ -45,10 +45,10 @@
 						</section>
 						<!-- end: PAGE TITLE -->
 						<!-- start: BASIC EXAMPLE -->
-							<div class="container-fluid container-fullw bg-white">
+							
 							<div class="row">
 								
-								<div class="col-sm-2">
+								<div class="col-sm-5">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
@@ -64,7 +64,7 @@
 								</div>
 								
 							</div>
-						</div>					
+										
 					
 						<!-- end: SELECT BOXES -->
 						
