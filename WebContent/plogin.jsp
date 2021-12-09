@@ -19,9 +19,7 @@
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
 </head>
 <body style="background-color:#D9F4F9;">
-<%   
-out.print("Welcome hereeee "); 
- %>  
+
   <!--patient login page--><br><br><br>
  		<center><div class="logo margin-top-30">
 				<h2>Patient Login</h2><br>
