@@ -21,7 +21,6 @@
 <body style="background-color:#D9F4F9;">
 <%    
 String name=(String)session.getAttribute("user");  
-out.print("Hello DOc"+name);  
 %>
   <!--patient login page--><br><br><br>
  		<center><div class="logo margin-top-30">
