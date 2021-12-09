@@ -17,7 +17,7 @@
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>
 <%
-String Name = (String)session.getAttribute("Name");
+String Name = (String)session.getAttribute("user");
 String userID=null;
 String driverName = "com.mysql.cj.jdbc.Driver";
 String connectionUrl = "jdbc:mysql://localhost:3306/";
