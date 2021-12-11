@@ -134,9 +134,14 @@ System.out.println("asasdf");
 								</div>
 							</div>
 								</div>
-						<br></br>
+					<%if(id==1)
+						{ %></br><%
+						}else if(id==2){%>										
+<center><a style="font-size: 22px;color:white;background: rgb(93, 173, 93);cursor: pointer;text-decoration: none;display: block;width:180px;height:37px;text-align:center;" href="docpage.jsp" title="Please click to go back to dashboard">Back</a></center><br>
+					<%	}else{%>
+								
 <center><a style="font-size: 22px;color:white;background: rgb(93, 173, 93);cursor: pointer;text-decoration: none;display: block;width:180px;height:37px;text-align:center;" href="patientpage.jsp" title="Please click to go back to dashboard">Back</a></center><br>
-
+					<%}	%>
 							</div>
 						</div>
 						
